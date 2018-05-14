@@ -1,0 +1,16 @@
+<h1>Pages#answer</h1>
+<div class="vl">
+  <h3>- You</h3>
+  <p><%= @ask = params["question"] %></p>
+</div>
+
+<div class="vl answer">
+  <h3>- Your coach</h3>
+  <p><%= @answer %></p>
+</div>
+
+<br>
+
+<%= link_to "Ask a new question", ask_path  %>
+
+
